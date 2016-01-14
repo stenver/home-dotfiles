@@ -1,0 +1,4 @@
+---
+BUNDLE_LOCAL__SALEMOVE-DOMAIN: "/Users/stenver/salemove/sm-domain"
+BUNDLE_DISABLE_LOCAL_BRANCH_CHECK: 'true'
+BUNDLE_GEM__TEST: rspec
