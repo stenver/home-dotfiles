@@ -58,3 +58,9 @@ export PATH=$PATH:$EC2_HOME/bin
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh  ] && source ~/.fzf.zsh
+
+nvm use 5.6
+
+__git_files () {
+  _wanted files expl 'local files' _files
+}
