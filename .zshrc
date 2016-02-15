@@ -37,7 +37,7 @@ PATH="/Users/stenver/Qt/5.4/clang_64/bin:$PATH"
 # Read secrets
 source $HOME/.secrets
 
-export PATH="/Users/stenver/.rvm/gems/ruby-2.2.4/bin:/usr/local/heroku/bin:/Users/stenver/go/src/k8s.io/kubernetes/_output/local/bin/darwin/amd64:/Users/stenver/salemove/kubernetis/platforms/darwin/amd64:/Users/stenver/Qt/5.4/clang_64/bin:/Users/stenver/.nvm/versions/node/v5.5.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Users/stenver/bin:/Users/stenver/scala/scala-2.11.7/bin:/usr/local/bin:/Users/stenver/go/bin:/usr/local/ec2/ec2-api-tools-1.7.5.1/bin:/Users/stenver/.rvm/bin:/usr/local/Cellar/fzf/HEAD/bin"
+export PATH="/Users/stenver/.rvm/gems/ruby-2.2.3/bin:/usr/local/heroku/bin:/Users/stenver/go/src/k8s.io/kubernetes/_output/local/bin/darwin/amd64:/Users/stenver/salemove/kubernetis/platforms/darwin/amd64:/Users/stenver/Qt/5.4/clang_64/bin:/Users/stenver/.nvm/versions/node/v5.5.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/go/bin:/Users/stenver/bin:/Users/stenver/scala/scala-2.11.7/bin:/usr/local/bin:/Users/stenver/go/bin:/usr/local/ec2/ec2-api-tools-1.7.5.1/bin:/Users/stenver/.rvm/bin:/usr/local/Cellar/fzf/HEAD/bin"
 
 
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -46,7 +46,6 @@ export GOROOT=/usr/local/go
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
 export SCALA_HOME=/Users/stenver/scala/scala-2.11.7
 
-# export PATH="/Users/stenver/.rvm/gems/ruby-2.2.4/bin:/Users/stenver/.rvm/gems/ruby-2.2.4/bin"
 export PATH="$PATH:/usr/local/heroku/bin"
 export PATH=$PATH:/usr/local/sbin
 export PATH="$PATH:$HOME/bin"

@@ -1,0 +1,28 @@
+[user]
+	email = stenver1010@gmail.com
+	name = Stenver Jerkku
+[push]
+  default = current
+[merge]
+  conflictstyle = diff3
+[init]
+  templatedir = ~/.git_template
+[core]
+  editor = nvim
+  autocrlf = input
+  excludesfile = /Users/stenver/.gitignore
+  excludesfile = /Users/stenver/.gitignordde_global
+
+[alias]
+  co = checkout
+  st = status
+  df = diff --stat -p --no-prefix
+  view = log --stat -b -p --no-prefix
+  hist = log --graph --oneline --decorate
+  ra = log --graph --abbrev-commit --date=relative --all
+  mine = "!git log --author='Indrek Juhkam' --format='%h %ad %s'"
+  mine-by-day = "!git-mine-by-day"
+  untracked = ls-files --others --exclude-standard
+  edit-modified = "!f() { git ls-files --modified --exclude-standard | sort -u ; }; nvim `f`"
+  fix = commit --amend --no-edit
+
