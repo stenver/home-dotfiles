@@ -5,13 +5,11 @@
   default = current
 [merge]
   conflictstyle = diff3
-[init]
-  templatedir = ~/.git_template
 [core]
   editor = nvim
   autocrlf = input
   excludesfile = /Users/stenver/.gitignore
-  excludesfile = /Users/stenver/.gitignordde_global
+  excludesfile = /Users/stenver/.gitignore_global
 
 [alias]
   co = checkout
