@@ -1,6 +1,4 @@
 ZSH_THEME="robbyrussell"
-[[ -s "$HOME/.rvm/scripts/rvm"  ]] && source "$HOME/.rvm/scripts/rvm"
-
 
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -30,8 +28,6 @@ function killjava(){
 
 }
 
-export NVM_DIR="/Users/stenver/.nvm"
-[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 PATH="/Users/stenver/Qt/5.4/clang_64/bin:$PATH"
 
@@ -59,11 +55,16 @@ export PATH="$PATH:/usr/local/bin"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/go/src/k8s.io/kubernetes/_output/local/bin/darwin/amd64
 export PATH=$PATH:$EC2_HOME/bin
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh  ] && source ~/.fzf.zsh
 
-nvm use 5.6
+export NVM_DIR="/Users/stenver/.nvm"
+[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[[ -s "$HOME/.rvm/scripts/rvm"  ]] && source "$HOME/.rvm/scripts/rvm"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# nvm use 5.6
 
 __git_files () {
   _wanted files expl 'local files' _files
