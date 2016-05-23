@@ -69,3 +69,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 __git_files () {
   _wanted files expl 'local files' _files
 }
+
+
+alias kubeu='kubectl --context="prod-eu"'
+
+# For jruby ssl certs
+# export SSL_CERT_FILE=~/certs/cacert.pem
