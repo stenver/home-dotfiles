@@ -70,8 +70,10 @@ __git_files () {
   _wanted files expl 'local files' _files
 }
 
-
+alias mux='tmuxinator start'
+alias kubeprod='kubectl --context="production"'
 alias kubeu='kubectl --context="prod-eu"'
 
 # For jruby ssl certs
 # export SSL_CERT_FILE=~/certs/cacert.pem
+export EDITOR='vim'
