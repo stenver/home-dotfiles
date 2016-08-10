@@ -73,6 +73,7 @@ __git_files () {
 alias mux='tmuxinator start'
 alias kubeprod='kubectl --context="production"'
 alias kubeu='kubectl --context="prod-eu"'
+alias kubeta='kubectl --context="staging"'
 
 # For jruby ssl certs
 # export SSL_CERT_FILE=~/certs/cacert.pem
