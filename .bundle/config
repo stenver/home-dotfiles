@@ -1,6 +1,6 @@
 ---
-BUNDLE_LOCAL__SALEMOVE-DOMAIN: "/Users/stenver/salemove/sm-domain"
-BUNDLE_LOCAL__SERVICE_HELPERS: "/Users/stenver/salemove/service_helpers"
+BUNDLE_LOCAL__SALEMOVE-DOMAIN: "/Users/stenver/Google Drive/programming/salemove/sm-domain"
+BUNDLE_LOCAL__SERVICE_HELPERS: "/Users/stenver/Google Drive/programming/salemove/service_helpers"
 BUNDLE_DISABLE_LOCAL_BRANCH_CHECK: 'true'
 BUNDLE_GEM__TEST: rspec
 BUNDLE_BUILD__EVENTMACHINE: "--with-cppflags=-I/usr/local/opt/openssl/include"
